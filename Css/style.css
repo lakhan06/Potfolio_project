@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
 
 *{
     margin: 0;
@@ -141,12 +141,17 @@ body{
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 20px;
+    letter-spacing: 2px;
+    /* font-family: 'Clicker Script', cursive; */
    
 }
 
 .content{
-    width: 500px;
+    width: 600px;
     font-size: 20px;
     font-weight:lighter;
     color: rgb(149, 147, 147);
+    line-height: 30px;
+    text-align: justify;
+    /* letter-spacing: 1px; */
 }
