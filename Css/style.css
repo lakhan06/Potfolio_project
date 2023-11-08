@@ -1,157 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
 
-*{
-    margin: 0;
-    padding: 0;
-    color: white;
-    box-sizing: border-box;
-    
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-body{
-    background-color: black;
-    width: 100vw;
-    /* height: 100vh; */
-    /* overflow: hidden; */
-    overflow-x: hidden; 
-
+body {
+  background-color: black;
+  width: 100vw;
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 /* Hero section */
 
-.container{
-    width: 100vw;
+.container {
+  width: 100vw;
 }
-.heroSection{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/Images/WhatsApp\ Image\ 2023-11-08\ at\ 17.20.35_ed0195b0.jpg);
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.navbar{
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    padding-top: 40px;
-    color: white;
-    
+.heroSection {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/Images/WhatsApp\ Image\ 2023-11-08\ at\ 17.20.35_ed0195b0.jpg);
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.logo{
-    font-size: 22px;
-    margin: 0 40vh 0 6vh ;
-    cursor: pointer;
-}
-.navlinks{
-    margin: 0 30vh 0 0 ;
-}
-.navlinks ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    text-transform: uppercase;
+.navbar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-top: 40px;
+  color: white;
 }
 
-.navbar ul li{
+.logo {
+  font-size: 22px;
+  margin: 0 40vh 0 6vh;
+  cursor: pointer;
+}
+.navlinks {
+  margin: 0 30vh 0 0;
+}
+.navlinks ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-transform: uppercase;
+}
+
+.navbar ul li {
     list-style: none;
     cursor: pointer;
-
 }
 
-.contactButton button{
-    padding: 5px 30px;
-    cursor: pointer;
-    border: 2px solid white;
-    border-radius: 2px;
-    /* font-size: 20px; */
-    font-weight: bold;
-    color: black;
+.contactButton button {
+  padding: 5px 30px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 2px;
+  /* font-size: 20px; */
+  font-weight: bold;
+  color: black;
 }
 
 .hero .text {
     margin-left: 10vw;
     margin-top: 10vw;
 }
-.largeheading{
+.largeheading {
     /* margin-bottom: 5vh; */
-    width: 50vw;
-    font-size: 70px;
-    font-weight: bold;
+  width: 50vw;
+  font-size: 70px;
+  font-weight: bold;
+ 
 }
-.shortheading{
-    font-size:40px ;
+.shortheading {
+    font-size: 30px;
     font-weight: bold;
     color: rgb(178, 175, 175);
 }
 
-.workbutton{
+.workbutton {
     margin-left: 10vw;
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
-.workbutton button{
+.workbutton button {
     padding: 10px 50px;
     font-size: 20px;
     cursor: pointer;
     border: 2px solid white;
-    border-radius: 2px;
-    color: black;
-    
+  border-radius: 2px;
+  color: black;
 }
-
 
 /* about part */
 
-.aboutpart{
-    display: flex;
-    width: 100vw;
-    /* padding: 0; */
-   
-    justify-content: space-between;
-    /* border: 2px solid white; */
+.aboutpart {
+  display: flex;
+  width: 100vw;
+  /* padding: 0; */
+
+  justify-content: space-between;
+  /* border: 2px solid white; */
 }
 
-
- img{
-    width: 40vw;
-    
-
+img {
+  width: 40vw;
 }
 
-.imfo{
-    margin-left: 8vw;
-    margin-top: 15vh;
+.imfo {
+  margin-left: 8vw;
+  margin-top: 15vh;
 }
 
-.greeting{
-    font-size: 40px;
-    word-spacing: 4px;
-    margin-bottom: 10px;
+.greeting {
+  font-size: 40px;
+  word-spacing: 4px;
+  margin-bottom: 10px;
 }
 
-.name{
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-    /* font-family: 'Clicker Script', cursive; */
-   
+.name {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  /* font-family: 'Clicker Script', cursive; */
 }
 
-.content{
-    width: 600px;
-    font-size: 20px;
-    font-weight:lighter;
-    color: rgb(149, 147, 147);
-    line-height: 30px;
-    text-align: justify;
-    /* letter-spacing: 1px; */
+.content {
+  width: 600px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(149, 147, 147);
+  line-height: 30px;
+  text-align: justify;
+  /* letter-spacing: 1px; */
 }
