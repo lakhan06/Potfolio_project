@@ -8,15 +8,22 @@
     padding: 0;
     color: white;
     box-sizing: border-box;
+    
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     background-color: black;
+    width: 100vw;
+    /* height: 100vh; */
+    /* overflow: hidden; */
 
 }
 
 /* Hero section */
 
-
+.container{
+    width: 100vw;
+}
 .heroSection{
     width: 100vw;
     height: 100vh;
@@ -38,7 +45,7 @@ body{
 
 .logo{
     font-size: 22px;
-    margin: 0 40vh 0 10vh ;
+    margin: 0 40vh 0 6vh ;
     cursor: pointer;
 }
 .navlinks{
@@ -97,4 +104,48 @@ body{
     border-radius: 2px;
     color: black;
     
+}
+
+
+/* about part */
+
+.aboutpart{
+    display: flex;
+    width: 100vw;
+    /* padding: 0; */
+   
+    justify-content: space-between;
+    /* border: 2px solid white; */
+}
+
+
+ img{
+    width: 40vw;
+    
+
+}
+
+.imfo{
+    margin-left: 8vw;
+    margin-top: 15vh;
+}
+
+.greeting{
+    font-size: 40px;
+    word-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+
+.content{
+    width: 500px;
+    font-size: 20px;
+    font-weight:lighter;
+    color: rgb(149, 147, 147);
 }
