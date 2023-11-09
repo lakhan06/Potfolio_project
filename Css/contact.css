@@ -327,3 +327,76 @@
     font-size: 25px;
   }
   }
+  @media (max-width:350px) {
+    .main{
+      display: flex;
+      padding: 0px 40px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 80px;
+      flex-direction: column;
+      background-image: url(/Images/contact.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    #submit {
+      background-color: white;
+      font-size: 16px;
+      border-radius: 0;
+      border: none;
+      margin-top: 28px;
+      color: black;
+      width: 130px;
+      height: 36px;
+  }
+
+    .image img{
+      display: none;
+    }
+    .form{
+      width: 100%;
+      margin-right: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .navbar {
+      justify-content: center;
+      gap: 60%;
+    }
+    .homeButton{
+      width: 200px;
+    }
+    .homeButton button {
+      padding: 5px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 2px solid white;
+      /* border-radius: 2px; */
+      /* font-size: 20px; */
+      color: black;
+     
+    }
+    
+  .form h2{
+    margin-top: 44px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+  }
+  .logo {
+    font-size: 15px;
+    /* margin: 0 30% 0 8%; */
+    cursor: pointer;
+    font-weight: bold;
+}
+.form textarea {
+  padding: 0px 10px;
+  width: 100%;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  font-size: 12px;
+}
+  }
