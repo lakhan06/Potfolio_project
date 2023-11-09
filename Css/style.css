@@ -251,36 +251,60 @@ img {
 .wimage3,
 .wimage4,
 .wimage5 {
-  /* background-size: unset; */
-  background-repeat: no-repeat;
-  background-size: cover;
+  filter: grayscale(100%);
+ 
+}
+.wimage1:hover{
+  filter: grayscale(0);
+}
+.wimage2:hover{
+  filter: grayscale(0);
+}
+.wimage3:hover{
+  filter: grayscale(0);
+}
+.wimage4:hover{
+  filter: grayscale(0);
+}
+.wimage5:hover{
+  filter: grayscale(0);
 }
 
 .wimage1 {
   width: 30vw;
   height: 40vw;
   background: url(/Images/work1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wimage2 {
   width: 40vw;
   height: 40vw;
   background: url(/Images/work2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wimage3 {
   width: 30vw;
   height: 40vw;
   background: url(/Images/work3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wimage4 {
   width: 50vw;
   height: 50vw;
   background: url(/Images/work4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wimage5 {
   width: 50vw;
   height: 50vw;
   background: url(/Images/work5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
