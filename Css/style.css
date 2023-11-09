@@ -125,6 +125,13 @@ body {
 }
 .navlinks a {
   text-decoration: none;
+  
+  padding: 5px 10px;
+}
+.navlinks a:hover{
+  border: 2px solid white;
+  border-radius: 5px;
+  
 }
 .navlinks ul {
   width: 100%;
