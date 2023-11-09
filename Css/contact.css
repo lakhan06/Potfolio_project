@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: black;
+  width: 100vw;
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 40px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 22px;
+    margin: 0 40vh 0 6vh;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .navlinks {
+    margin: 0 45vh 0 0;
+  }
+  .navlinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li {
+      list-style: none;
+      cursor: pointer;
+  }
+  
+  .contactButton button {
+    padding: 15px 34px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid white;
+    /* border-radius: 2px; */
+    /* font-size: 20px; */
+    color: black;
+  }
+
+  .main{
+    display: flex;
+    padding: 0px 64px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .image{
+    margin-left: 40px;
+    width: 40%;
+  }
+
+  .image img{
+    width: 400px;
+  }
+
+  .form{
+    width: 50%;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .form h2{
+    margin-top: 84px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+  }
+
+  .form form{
+        display: flex;
+        flex-direction: column;
+  }
+
+  .form label{
+    font-size: 12px;
+  }
+
+  .form input{
+    /* width: 80%; */
+    border: none;
+    font-size: 12px;
+    border-radius: 2px;
+    height: 40px;
+    color: black;
+    margin-bottom: 24px;
+    padding: 0px 10px;
+  }
+
+  .form textarea{
+    padding: 0px 10px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+  }
+
+  #submit{
+    background-color: white;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+    margin-top: 28px;
+    color: black;
+    width: 130px;
+    height: 56px;
+  }

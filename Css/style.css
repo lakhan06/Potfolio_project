@@ -78,9 +78,8 @@ body {
   padding: 5px 1.5rem;
   cursor: pointer;
   border: 2px solid white;
-  border-radius: 2px;
+  /* border-radius: 2px; */
   /* font-size: 20px; */
-  font-weight: bold;
   color: black;
 }
 
@@ -96,7 +95,7 @@ body {
  
 }
 .shortheading {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(178, 175, 175);
 }
@@ -107,11 +106,11 @@ body {
 }
 
 .workbutton button {
-    padding: 10px 50px;
+    padding: 16px 50px;
     font-size: 20px;
     cursor: pointer;
     border: 2px solid white;
-  border-radius: 2px;
+  /* border-radius: 2px; */
   color: black;
   
 }
