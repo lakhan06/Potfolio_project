@@ -170,18 +170,20 @@ body {
   display: flex;
   width: 100vw;
   /* padding: 0; */
+  /* height: 40vh; */
+  overflow-y: hidden;
 
   justify-content: space-between;
   /* border: 2px solid white; */
 }
 
-img {
-  width: 40vw;
-}
 
 .imfo {
   margin-left: 8vw;
-  margin-top: 15vh;
+  margin-top: 10vh;
+}
+img{
+  width: 40vh;
 }
 
 .greeting {
@@ -193,7 +195,7 @@ img {
 .name {
   font-size: 60px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   letter-spacing: 2px;
   /* font-family: 'Clicker Script', cursive; */
 }
@@ -440,7 +442,7 @@ display: none;
 
 .imfo {
   margin-left: 8vw;
-  margin-top: 6vh;
+  margin-top: 4vh;
 }
 
 .greeting {
@@ -503,7 +505,7 @@ display: none;
 .name {
   font-size: 35px;
   font-weight: bold;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   letter-spacing: 2px;
   /* font-family: 'Clicker Script', cursive; */
 }
@@ -524,12 +526,12 @@ display: none;
   .largeheading {
     /* margin-bottom: 5vh; */
   width: 70vw;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
  
 }
 .shortheading {
-    font-size: 30px;
+    font-size: 20px;
     width: 50vw;
     /* font-size: 50px; */
     font-weight: bold;
@@ -572,15 +574,15 @@ display: none;
 }
 
 .greeting {
-  font-size: 25px;
+  font-size: 16px;
   word-spacing: 4px;
   margin-bottom: 10px;
 }
 
 .name {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   letter-spacing: 2px;
   /* font-family: 'Clicker Script', cursive; */
 }
@@ -591,7 +593,7 @@ display: none;
   font-weight: lighter;
   color: rgb(149, 147, 147);
   word-spacing: 0.1px;
-  line-height: 25px;
+  line-height: 15px;
   text-align: justify;
   /* letter-spacing: 1px; */
 }
@@ -663,7 +665,7 @@ display: none;
 .name {
   font-size: 25px;
   font-weight: bold;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   letter-spacing: 2px;
   /* font-family: 'Clicker Script', cursive; */
 }
@@ -674,7 +676,7 @@ display: none;
   font-weight: lighter;
   color: rgb(149, 147, 147);
   word-spacing: 0.1px;
-  line-height: 15px;
+  line-height: 10px;
   text-align: justify;
   /* letter-spacing: 1px; */
 }
