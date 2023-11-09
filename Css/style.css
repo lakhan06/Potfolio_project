@@ -191,7 +191,7 @@ body {
   /* height: 40vh; */
   overflow-y: hidden;
 
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* border: 2px solid white; */
 }
 
@@ -199,9 +199,12 @@ body {
   margin-left: 8vw;
   margin-top: 10vh;
 }
-img {
-  width: 60vh;
-  opacity: 0.4;
+.imageabout{
+  width: 100vw;
+  /* height: 30vh; */
+  background-image: url(/Images/WhatsApp\ Image\ 2023-11-08\ at\ 18.06.00_572c438e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .greeting {
@@ -928,5 +931,9 @@ img {
   .sidebar {
     flex-direction: column;
     gap: 5vh;
+  }
+  .imageabout{
+    width: 150vw;
+
   }
 }
