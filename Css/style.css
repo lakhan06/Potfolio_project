@@ -10,6 +10,7 @@
   /* overflow-x: hidden; */
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   background-color: black;
   width: 100vw;
@@ -39,27 +40,33 @@ body {
 
 .navbar {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
+  padding: 0px 120px;
   padding-top: 40px;
   color: white;
 }
 
 .logo {
   font-size: 22px;
-  margin: 0 30% 0 8%;
+  /* margin: 0 30% 0 8%; */
   cursor: pointer;
   font-weight: bold;
 }
 .navlinks {
-  margin: 0 25% 0 0;
-  width: 10%;
-}
-.navlinks ul {
+  /* margin: 0 25% 0 0; */
+  width: 60%;
   display: flex;
   justify-content: center;
+}
+.navlinks a{
+  text-decoration: none;
+}
+.navlinks ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 50%;
   /* text-transform: uppercase; */
 }
 
