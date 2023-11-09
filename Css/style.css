@@ -22,6 +22,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
 a:hover {
   color: rgb(99, 98, 98) !important;
 }
@@ -32,9 +33,12 @@ body {
   /* height: 100vh; */
   /* overflow: hidden; */
   overflow-x: hidden;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
 }
 
 .toogle {
@@ -63,6 +67,7 @@ body {
   transition: all 0.8s ease;
   /* display: none; */
 }
+
 .sidebar i {
   position: absolute;
   top: 10px;
@@ -117,20 +122,24 @@ body {
   cursor: pointer;
   font-weight: bold;
 }
+
 .navlinks {
   /* margin: 0 25% 0 0; */
   width: 60%;
   display: flex;
   justify-content: center;
 }
+
 .navlinks a {
   text-decoration: none;
-  
+
   /* padding: 5px 10px; */
 }
-.navlinks a:hover{
-  text-decoration: underline;
-}
+
+/* .navlinks a:hover {
+  text-decoration: underline; 
+} */
+
 .navlinks ul {
   width: 100%;
   display: flex;
@@ -161,12 +170,14 @@ body {
   margin-left: 10vw;
   margin-top: 19vh;
 }
+
 .largeheading {
   /* margin-bottom: 5vh; */
   width: 50vw;
   font-size: 70px;
   font-weight: bold;
 }
+
 .shortheading {
   font-size: 40px;
   font-weight: bold;
@@ -204,7 +215,8 @@ body {
   margin-left: 8vw;
   margin-top: 10vh;
 }
-.imageabout{
+
+.imageabout {
   width: 100vw;
   /* height: 30vh; */
   background-image: url(/Images/WhatsApp\ Image\ 2023-11-08\ at\ 18.06.00_572c438e.jpg);
@@ -263,18 +275,23 @@ body {
 .wimage5 {
   filter: grayscale(100%);
 }
+
 .wimage1:hover {
   filter: grayscale(0);
 }
+
 .wimage2:hover {
   filter: grayscale(0);
 }
+
 .wimage3:hover {
   filter: grayscale(0);
 }
+
 .wimage4:hover {
   filter: grayscale(0);
 }
+
 .wimage5:hover {
   filter: grayscale(0);
 }
@@ -286,6 +303,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .wimage2 {
   width: 40vw;
   height: 40vw;
@@ -293,6 +311,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .wimage3 {
   width: 30vw;
   height: 40vw;
@@ -308,6 +327,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .wimage5 {
   width: 50vw;
   height: 50vw;
@@ -478,6 +498,7 @@ body {
     font-size: 60px;
     font-weight: bold;
   }
+
   .shortheading {
     font-size: 30px;
     width: 50vw;
@@ -533,12 +554,14 @@ body {
     font-size: 50px;
     font-weight: bold;
   }
+
   .shortheading {
     font-size: 30px;
     width: 50vw;
     font-size: 30px;
     font-weight: bold;
   }
+
   .toogle {
     position: absolute;
     top: 40px;
@@ -553,11 +576,13 @@ body {
     cursor: pointer;
     font-weight: bold;
   }
+
   .navlinks {
     margin: 0 25% 0 0;
     width: 10%;
     display: none;
   }
+
   .navlinks ul {
     display: flex;
     justify-content: center;
@@ -579,6 +604,7 @@ body {
   .contactButton button {
     display: none;
   }
+
   .contact-sidebar button {
     display: block;
     padding: 5px 1.5rem;
@@ -636,6 +662,7 @@ body {
   .work h1 {
     font-size: 3em;
   }
+
   .sidebar-navlinks ul {
     display: flex;
     /* flex-direction: column; */
@@ -643,6 +670,7 @@ body {
     align-items: center;
     gap: 6vw;
   }
+
   .toogle {
     position: absolute;
     top: 40px;
@@ -658,12 +686,14 @@ body {
     cursor: pointer;
     font-weight: bold;
   }
+
   .largeheading {
     /* margin-bottom: 5vh; */
     width: 70vw;
     font-size: 50px;
     font-weight: bold;
   }
+
   .shortheading {
     font-size: 30px;
     width: 50vw;
@@ -695,14 +725,17 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+
   .fLogo {
     font-size: 20px;
   }
+
   .footer .left,
   .right,
   .middle {
@@ -727,6 +760,7 @@ body {
     padding: 50px;
     font-size: 2.5em;
   }
+
   .sidebar-navlinks ul {
     display: flex;
     /* flex-direction: column; */
@@ -734,12 +768,14 @@ body {
     align-items: center;
     gap: 4vw;
   }
+
   .largeheading {
     /* margin-bottom: 5vh; */
     width: 70vw;
     font-size: 30px;
     font-weight: bold;
   }
+
   .shortheading {
     font-size: 20px;
     width: 50vw;
@@ -760,6 +796,7 @@ body {
   .contactButton button {
     display: none;
   }
+
   .contact-sidebar button {
     display: block;
     padding: 5px 1.5rem;
@@ -813,9 +850,11 @@ body {
     align-items: center;
     justify-content: center;
   }
+
   .fLogo {
     font-size: 20px;
   }
+
   .footer .left,
   .right,
   .middle {
@@ -840,10 +879,11 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .special .text li {
     margin: 10px 0;
   }
-  
+
 }
 
 @media (max-width: 400px) {
@@ -851,6 +891,7 @@ body {
     padding: 20px;
     font-size: 1.5em;
   }
+
   .sidebar-navlinks ul {
     display: flex;
     /* flex-direction: column; */
@@ -858,12 +899,14 @@ body {
     align-items: center;
     gap: 4vw;
   }
+
   .largeheading {
     /* margin-bottom: 5vh; */
     width: 80vw;
     font-size: 30px;
     font-weight: bold;
   }
+
   .shortheading {
     font-size: 16px;
     width: 50vw;
@@ -884,6 +927,7 @@ body {
   .contactButton button {
     display: none;
   }
+
   .contact-sidebar button {
     display: block;
     padding: 5px 1.5rem;
@@ -945,7 +989,8 @@ body {
     flex-direction: column;
     gap: 5vh;
   }
-  .imageabout{
+
+  .imageabout {
     width: 150vw;
 
   }
@@ -960,5 +1005,5 @@ body {
     align-items: center;
     gap: 4vw;
   }
-  
+
 }

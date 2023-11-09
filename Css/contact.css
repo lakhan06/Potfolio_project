@@ -12,16 +12,21 @@
   /* overflow-x: hidden; */
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   background-color: black;
   width: 100vw;
   /* height: 100vh; */
   /* overflow: hidden; */
   overflow-x: hidden;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
 }
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -180,7 +185,7 @@ button:hover {
   font-size: 12px;
 }
 
-.form p{
+.form p {
   color: gray;
   margin-bottom: 20px;
 }
@@ -295,6 +300,7 @@ button:hover {
   .image img {
     display: none;
   }
+
   .form {
     width: 100%;
     margin-right: 40px;
@@ -302,6 +308,7 @@ button:hover {
     flex-direction: column;
     justify-content: flex-start;
   }
+
   .navbar {
     gap: 40%;
   }
@@ -323,6 +330,7 @@ button:hover {
   .image img {
     display: none;
   }
+
   .form {
     width: 100%;
     margin-right: 40px;
@@ -330,13 +338,16 @@ button:hover {
     flex-direction: column;
     justify-content: flex-start;
   }
+
   .navbar {
     justify-content: center;
     gap: 60%;
   }
+
   .homeButton {
     width: 200px;
   }
+
   .homeButton button {
     padding: 10px 24px;
     font-size: 16px;
@@ -354,6 +365,7 @@ button:hover {
     font-size: 25px;
   }
 }
+
 @media (max-width: 350px) {
   .main {
     display: flex;
@@ -366,6 +378,7 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   #submit {
     background-color: white;
     font-size: 16px;
@@ -380,6 +393,7 @@ button:hover {
   .image img {
     display: none;
   }
+
   .form {
     width: 100%;
     margin-right: 40px;
@@ -387,13 +401,16 @@ button:hover {
     flex-direction: column;
     justify-content: flex-start;
   }
+
   .navbar {
     justify-content: center;
     gap: 60%;
   }
+
   .homeButton {
     width: 200px;
   }
+
   .homeButton button {
     padding: 5px 15px;
     font-size: 16px;
@@ -410,12 +427,14 @@ button:hover {
     font-family: "Playfair Display", serif;
     font-size: 25px;
   }
+
   .logo {
     font-size: 15px;
     /* margin: 0 30% 0 8%; */
     cursor: pointer;
     font-weight: bold;
   }
+
   .form textarea {
     padding: 0px 10px;
     width: 100%;
@@ -432,9 +451,11 @@ button:hover {
     align-items: center;
     justify-content: center;
   }
+
   .fLogo {
     font-size: 20px;
   }
+
   .footer .left,
   .right,
   .middle {
