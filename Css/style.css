@@ -251,8 +251,9 @@ img {
 .wimage3,
 .wimage4,
 .wimage5 {
-  background-size: cover;
+  /* background-size: unset; */
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wimage1 {
@@ -280,6 +281,7 @@ img {
   width: 50vw;
   height: 50vw;
   background: url(/Images/work5.png);
+  
 }
 
 /* 
@@ -887,4 +889,13 @@ img {
   .special .text li {
     margin: 5px 0;
   }
+}
+
+
+@media (max-width:500px) {
+  .sidebar{
+    flex-direction: column;
+    gap:5vh;
+  }
+  
 }
