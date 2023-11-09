@@ -12,9 +12,18 @@
   font-family: "Montserrat", sans-serif;
 }
 
+button:hover{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white !important;
+}
+
 a{
   text-decoration: none;
   cursor: pointer;
+}
+a:hover{
+  color: rgb(99, 98, 98) !important;;
 }
 
 body {
@@ -89,6 +98,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
 
 .navbar {
@@ -111,6 +121,7 @@ body {
   width: 60%;
   display: flex;
   justify-content: center;
+  
 }
 .navlinks a{
   text-decoration: none;
@@ -130,10 +141,11 @@ body {
 }
 
 .contactButton button {
-  padding: 16px 34px;
+  padding: 8px 24px;
   font-size: 16px;
   cursor: pointer;
   border: 2px solid white;
+  border-radius: 5px;
   /* border-radius: 2px; */
   /* font-size: 20px; */
   color: black;
@@ -162,13 +174,14 @@ body {
 }
 
 .workbutton button {
-  padding: 16px 50px;
+  padding: 12px 35px;
   font-size: 20px;
   cursor: pointer;
   border: 2px solid white;
   /* border-radius: 2px; */
   color: black;
 }
+
 
 /* about part */
 
@@ -190,6 +203,7 @@ body {
 }
 img{
   width: 60vh;
+  opacity: 0.4;
 }
 
 .greeting {
