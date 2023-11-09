@@ -145,7 +145,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   border: 2px solid white;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   /* border-radius: 2px; */
   /* font-size: 20px; */
   color: black;
@@ -241,7 +241,7 @@ body {
 
 .work h1 {
   padding: 50px;
-  font-size: 4em;
+  font-size: 3.2em;
 }
 
 .wimages {
@@ -249,6 +249,8 @@ body {
   flex-wrap: wrap;
 }
 
+
+/* to provide a black&white to colour transition */
 .wimage1,
 .wimage2,
 .wimage3,
@@ -346,6 +348,7 @@ body {
   width: 50vw;
 } */
 
+
 /* Special Section */
 .special {
   display: flex;
@@ -382,6 +385,7 @@ body {
 .special img {
   width: 100%;
 }
+
 
 /* Footer start */
 .footer {
@@ -514,6 +518,9 @@ body {
     font-size: 1.5em;
   }
 }
+
+
+/* responsive */
 @media (max-width: 1000px) {
   .largeheading {
     /* margin-bottom: 5vh; */
