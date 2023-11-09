@@ -241,6 +241,47 @@ img {
   font-size: 4em;
 }
 
+.wimages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wimage1,
+.wimage2,
+.wimage3,
+.wimage4,
+.wimage5 {
+  background-size: unset;
+}
+
+.wimage1 {
+  width: 30vw;
+  height: 40vw;
+  background: url(/Images/work1.jpg);
+}
+.wimage2 {
+  width: 40vw;
+  height: 40vw;
+  background: url(/Images/work2.jpg);
+}
+.wimage3 {
+  width: 30vw;
+  height: 40vw;
+  background: url(/Images/work3.jpg);
+}
+
+.wimage4 {
+  width: 50vw;
+  height: 50vw;
+  background: url(/Images/work4.jpg);
+}
+.wimage5 {
+  width: 50vw;
+  height: 50vw;
+  background: url(/Images/work5.png);
+}
+
+/* 
 .up {
   display: flex;
   align-items: start;
@@ -275,7 +316,7 @@ img {
 
 .img5 {
   width: 50vw;
-}
+} */
 
 /* Special Section */
 .special {
@@ -298,6 +339,7 @@ img {
   padding: 100px;
   justify-content: center;
   font-size: 2em;
+  align-items: start;
 }
 
 .special .text li {
@@ -544,6 +586,10 @@ img {
     text-align: justify;
     /* letter-spacing: 1px; */
   }
+
+  .special .text ul {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 800px) {
@@ -603,6 +649,33 @@ img {
 
   .special .text ul {
     font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fLogo {
+    font-size: 20px;
+  }
+  .footer .left,
+  .right,
+  .middle {
+    width: 50vw;
+    padding-top: 30px;
+  }
+
+  .left {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left h5 {
+    text-align: center;
+    width: 80vw;
+    font-size: 13px;
   }
 }
 
@@ -699,7 +772,7 @@ img {
   .footer .left,
   .right,
   .middle {
-    width: 100vw;
+    width: 50vw;
     padding-top: 30px;
   }
 
@@ -715,7 +788,10 @@ img {
   }
 
   .special .text ul {
-    font-size: 0.6em;
+    font-size: 0.5em;
+    align-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .special .text li {
     margin: 10px 0;
@@ -798,6 +874,17 @@ img {
     line-height: 10px;
     text-align: justify;
     /* letter-spacing: 1px; */
+  }
+
+  .special .text ul {
+    font-size: 0.4em;
+    align-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .special .text li {
+    margin: 5px 0;
   }
 }
 
