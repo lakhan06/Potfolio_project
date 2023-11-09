@@ -251,7 +251,8 @@ img {
 .wimage3,
 .wimage4,
 .wimage5 {
-  background-size: unset;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .wimage1 {
