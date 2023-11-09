@@ -831,6 +831,7 @@ body {
   .special .text li {
     margin: 10px 0;
   }
+  
 }
 
 @media (max-width: 400px) {
@@ -843,7 +844,7 @@ body {
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    gap: 3vw;
+    gap: 4vw;
   }
   .largeheading {
     /* margin-bottom: 5vh; */
@@ -936,4 +937,16 @@ body {
     width: 150vw;
 
   }
+}
+
+
+@media screen {
+  .sidebar-navlinks ul {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+  }
+  
 }
