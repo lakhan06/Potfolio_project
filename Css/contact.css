@@ -56,6 +56,16 @@
     font-weight: bold;
   }
 
+  fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  span{
+    color: red;
+  }
+
   /* 
   
   .navlinks {
@@ -93,7 +103,8 @@
     display: flex;
     padding: 0px 90px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 80px;
   }
 
   .image{
@@ -102,7 +113,7 @@
   }
 
   .image img{
-    width: 400px;
+    width: 500px;
   }
 
   .form{
@@ -130,7 +141,7 @@
   }
 
   .form input{
-    width: 80%;
+    width: 90%;
     border: none;
     font-size: 12px;
     border-radius: 2px;
@@ -142,7 +153,7 @@
 
   .form textarea{
     padding: 0px 10px;
-    width: 80%;
+    width: 90%;
     border: none;
     color: white;
     border-radius: 2px;
@@ -158,4 +169,76 @@
     color: black;
     width: 130px;
     height: 56px;
+  }
+
+  /* Footer start */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+  }
+  
+  .footer .left,
+  .right,
+  .middle {
+    width: 30vw;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    padding: 0 80px;
+  }
+  
+  .fLogo {
+    font-size: 30px;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+  
+  .left h5 {
+    width: 20vw;
+    font-size: 18px;
+  }
+  
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .middle ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  .middle li {
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .middle li:hover {
+    text-decoration: underline;
+  }
+  
+  .right ul {
+    padding-top: 20px;
+    display: flex;
+    list-style: none;
+  }
+  
+  .right li {
+    font-size: 1.8em;
+    padding-right: 23px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+  }
+  
+  .right li:hover {
+    transform: scale(1.2);
   }
