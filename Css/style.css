@@ -65,6 +65,7 @@ body {
 
 .contactButton button {
   padding: 15px 34px;
+  font-size: 16px;
   cursor: pointer;
   border: 2px solid white;
   /* border-radius: 2px; */
@@ -95,7 +96,7 @@ body {
 }
 
 .workbutton button {
-    padding: 10px 50px;
+    padding: 16px 50px;
     font-size: 20px;
     cursor: pointer;
     border: 2px solid white;
