@@ -7,7 +7,7 @@
   padding: 0;
   color: white;
   box-sizing: border-box;
-
+  /* overflow-x: hidden; */
   font-family: "Montserrat", sans-serif;
 }
 body {
@@ -19,10 +19,14 @@ body {
 }
 
 /* Hero section */
-
-.container {
-  width: 100vw;
+.toogle{
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  font-size: 20px;
+  display: none;
 }
+
 .heroSection {
   width: 100vw;
   height: 100vh;
@@ -43,27 +47,35 @@ body {
 
 .logo {
   font-size: 22px;
-  margin: 0 40vh 0 6vh;
+  margin: 0 30% 0 8%;
   cursor: pointer;
+  font-weight: bold;
 }
 .navlinks {
-  margin: 0 45vh 0 0;
+  margin: 0 25% 0 0;
+  width: 10%;
 }
 .navlinks ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 50%;
   text-transform: uppercase;
 }
 
 .navbar ul li {
     list-style: none;
     cursor: pointer;
+    /* margin-left: 2rem; */
+}
+
+.contactButton{
+  
+  /* margin-right: ; */
 }
 
 .contactButton button {
-  padding: 5px 30px;
+  padding: 5px 1.5rem;
   cursor: pointer;
   border: 2px solid white;
   border-radius: 2px;
@@ -74,7 +86,7 @@ body {
 
 .hero .text {
     margin-left: 10vw;
-    margin-top: 10vw;
+    margin-top: 15vh;
 }
 .largeheading {
     /* margin-bottom: 5vh; */
@@ -101,6 +113,7 @@ body {
     border: 2px solid white;
   border-radius: 2px;
   color: black;
+  
 }
 
 /* about part */
@@ -138,11 +151,117 @@ img {
 }
 
 .content {
-  width: 600px;
+  width: 80%;
   font-size: 20px;
   font-weight: lighter;
   color: rgb(149, 147, 147);
   line-height: 30px;
   text-align: justify;
   /* letter-spacing: 1px; */
+}
+
+
+@media (max-width:1200px) {
+  
+.largeheading {
+    /* margin-bottom: 5vh; */
+  width: 50vw;
+  font-size: 50px;
+  font-weight: bold;
+ 
+}
+.shortheading {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(178, 175, 175);
+}
+
+  
+}
+@media (max-width:1000px) {
+  .toogle{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    font-size: 20px;
+    display: block;
+  }
+  
+  .logo {
+    font-size: 22px;
+    margin: 0 50% 0 8%;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .navlinks {
+    margin: 0 25% 0 0;
+    width: 10%;
+    display: none;
+  }
+  .navlinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60%;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li {
+      list-style: none;
+      cursor: pointer;
+      /* margin-left: 2rem; */
+  }
+  
+  .contactButton{
+    
+    margin-right:8% ;
+  }
+  
+  .contactButton button {
+    padding: 5px 1.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 2px;
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: black;
+  }
+  
+  .hero .text {
+    margin-left: 10vw;
+    margin-top: 25vh;
+}
+  
+.largeheading {
+    /* margin-bottom: 5vh; */
+  width: 50vw;
+  font-size: 40px;
+  font-weight: bold;
+ 
+}
+.shortheading {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(178, 175, 175);
+}
+
+  
+}
+
+@media (max-width:800px) {
+
+   .toogle{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    font-size: 20px;
+    display: block;
+  }
+  
+  .logo {
+    font-size: 22px;
+    margin: 0 35% 0 8%;
+    cursor: pointer;
+    font-weight: bold;
+  }
 }
