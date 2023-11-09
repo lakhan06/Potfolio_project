@@ -5,22 +5,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  color: white;
-  box-sizing: border-box;
-
-  font-family: "Montserrat", sans-serif;
-}
-body {
-  background-color: black;
-  width: 100vw;
-  /* height: 100vh; */
-  /* overflow: hidden; */
-  overflow-x: hidden;
-}
-
-.navbar {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background-color: black;
+    width: 100vw;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    overflow-x: hidden;
+  }
+  
+  /* Hero section */
+  .toogle{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    font-size: 20px;
+    display: none;
+  }
+  
+  .heroSection {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Images/WhatsApp\ Image\ 2023-11-08\ at\ 17.20.35_ed0195b0.jpg);
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .navbar {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -30,24 +49,26 @@ body {
   
   .logo {
     font-size: 22px;
-    margin: 0 40vh 0 6vh;
+    margin: 0 30% 0 8%;
     cursor: pointer;
     font-weight: bold;
   }
   .navlinks {
-    margin: 0 45vh 0 0;
+    margin: 0 25% 0 0;
+    width: 10%;
   }
   .navlinks ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    text-transform: uppercase;
+    gap: 50%;
+    /* text-transform: uppercase; */
   }
   
   .navbar ul li {
       list-style: none;
       cursor: pointer;
+      /* margin-left: 2rem; */
   }
   
   .contactButton button {

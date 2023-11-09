@@ -60,7 +60,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 50%;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .navbar ul li {
@@ -69,13 +69,11 @@ body {
     /* margin-left: 2rem; */
 }
 
-.contactButton{
-  
-  /* margin-right: ; */
-}
+
 
 .contactButton button {
-  padding: 5px 1.5rem;
+  padding: 16px 34px;
+  font-size: 16px;
   cursor: pointer;
   border: 2px solid white;
   /* border-radius: 2px; */
@@ -85,7 +83,7 @@ body {
 
 .hero .text {
     margin-left: 10vw;
-    margin-top: 15vh;
+    margin-top: 18vh;
 }
 .largeheading {
     /* margin-bottom: 5vh; */
