@@ -22,6 +22,10 @@ body {
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* Hero section */
 .toogle {
@@ -129,7 +133,7 @@ button {
   width: 40vw;
   /* height: 80vh; */
   margin-top: 10vh;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .form {
