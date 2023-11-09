@@ -83,7 +83,7 @@
 
   .main{
     display: flex;
-    padding: 0px 64px;
+    padding: 0px 90px;
     justify-content: center;
     align-items: flex-start;
   }
@@ -122,7 +122,7 @@
   }
 
   .form input{
-    /* width: 80%; */
+    width: 80%;
     border: none;
     font-size: 12px;
     border-radius: 2px;
@@ -134,6 +134,7 @@
 
   .form textarea{
     padding: 0px 10px;
+    width: 80%;
     border: none;
     color: white;
     border-radius: 2px;
