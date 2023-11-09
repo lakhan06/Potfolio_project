@@ -800,3 +800,11 @@ img {
     /* letter-spacing: 1px; */
   }
 }
+
+
+@media (max-width:500px) {
+  .sidebar{
+    flex-direction: column;
+  }
+  
+}
