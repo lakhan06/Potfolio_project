@@ -12,6 +12,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 body {
   background-color: black;
   width: 100vw;

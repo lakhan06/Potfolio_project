@@ -47,6 +47,7 @@
     padding: 40px 120px;
     padding-bottom: 0px;
     color: white;
+    
   }
   
   .logo {
@@ -90,7 +91,7 @@
   
   
   .homeButton button {
-    padding: 15px 34px;
+    padding: 10px 34px;
     font-size: 16px;
     cursor: pointer;
     border: 2px solid white;
@@ -105,15 +106,19 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    /* height: 100vh; */
+   
   }
 
   .image{
     margin-left: 40px;
-    width: 40%;
+    /* width: 40%; */
   }
-
+  
   .image img{
-    width: 500px;
+    /* height: 40rem; */
+    width: 40vw;
+    margin-top: 10vh;
   }
 
   .form{
@@ -134,6 +139,7 @@
   .form form{
         display: flex;
         flex-direction: column;
+       
   }
 
   .form label{
@@ -241,4 +247,83 @@
   
   .right li:hover {
     transform: scale(1.2);
+  }
+
+
+  @media (max-width:900px) {
+    .main{
+      display: flex;
+      padding: 0px 90px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 80px;
+      flex-direction: column;
+      background-image: url(/Images/contact.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .image img{
+      display: none;
+    }
+    .form{
+      width: 100%;
+      margin-right: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .navbar {
+      gap: 40%;
+    }
+  }
+
+  @media (max-width:500px) {
+    .main{
+      display: flex;
+      padding: 0px 90px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 80px;
+      flex-direction: column;
+      background-image: url(/Images/contact.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+
+    .image img{
+      display: none;
+    }
+    .form{
+      width: 100%;
+      margin-right: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .navbar {
+      justify-content: center;
+      gap: 60%;
+    }
+    .homeButton{
+      width: 200px;
+    }
+    .homeButton button {
+      padding: 10px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 2px solid white;
+      /* border-radius: 2px; */
+      /* font-size: 20px; */
+      color: black;
+     
+    }
+    
+  .form h2{
+    margin-top: 44px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+  }
   }
