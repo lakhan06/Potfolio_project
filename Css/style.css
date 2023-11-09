@@ -19,7 +19,7 @@ body {
 }
 
 /* Hero section */
-.toogle{
+.toogle {
   position: absolute;
   top: 50px;
   right: 30px;
@@ -64,12 +64,10 @@ body {
 }
 
 .navbar ul li {
-    list-style: none;
-    cursor: pointer;
-    /* margin-left: 2rem; */
+  list-style: none;
+  cursor: pointer;
+  /* margin-left: 2rem; */
 }
-
-
 
 .contactButton button {
   padding: 16px 34px;
@@ -80,39 +78,36 @@ body {
   /* font-size: 20px; */
   color: black;
   font-size: 16px;
-  
 }
 
 .hero .text {
-    margin-left: 10vw;
-    margin-top: 19vh;
+  margin-left: 10vw;
+  margin-top: 19vh;
 }
 .largeheading {
-    /* margin-bottom: 5vh; */
+  /* margin-bottom: 5vh; */
   width: 50vw;
   font-size: 70px;
   font-weight: bold;
- 
 }
 .shortheading {
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(178, 175, 175);
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(178, 175, 175);
 }
 
 .workbutton {
-    margin-left: 10vw;
+  margin-left: 10vw;
   margin-top: 5vh;
 }
 
 .workbutton button {
-    padding: 16px 50px;
-    font-size: 20px;
-    cursor: pointer;
-    border: 2px solid white;
+  padding: 16px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid white;
   /* border-radius: 2px; */
   color: black;
-  
 }
 
 /* about part */
@@ -159,33 +154,133 @@ img {
   /* letter-spacing: 1px; */
 }
 
-
-@media (max-width:1200px) {
-  
-.largeheading {
-    /* margin-bottom: 5vh; */
-  width: 50vw;
-  font-size: 50px;
-  font-weight: bold;
- 
+/* Special Section */
+.special {
+  display: flex;
+  height: 40vw;
 }
-.shortheading {
+
+.special .text {
+  width: 50vw;
+  padding-top: 70px;
+}
+
+.special .text ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.special .text li {
+  margin: 20px 0;
+}
+
+.special .img {
+  width: 50vw;
+  overflow: hidden;
+}
+
+.special img {
+  width: 100%;
+}
+
+/* Footer start */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+.footer .left,
+.right,
+.middle {
+  width: 30vw;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  padding: 0 80px;
+}
+
+.fLogo {
+  font-size: 30px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.left h5 {
+  width: 20vw;
+  font-size: 18px;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.middle li {
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.middle li:hover {
+  text-decoration: underline;
+}
+
+.right ul {
+  padding-top: 20px;
+  display: flex;
+  list-style: none;
+}
+
+.right li {
+  font-size: 1.8em;
+  padding-right: 23px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.right li:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1200px) {
+  .largeheading {
+    /* margin-bottom: 5vh; */
+    width: 50vw;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .shortheading {
     font-size: 20px;
     font-weight: bold;
     color: rgb(178, 175, 175);
+  }
 }
-
-  
-}
-@media (max-width:1000px) {
-  .toogle{
+@media (max-width: 1000px) {
+  .toogle {
     position: absolute;
     top: 40px;
     right: 30px;
     font-size: 20px;
     display: block;
   }
-  
+
   .logo {
     font-size: 22px;
     margin: 0 50% 0 8%;
@@ -204,59 +299,52 @@ img {
     gap: 60%;
     text-transform: uppercase;
   }
-  
+
   .navbar ul li {
-      list-style: none;
-      cursor: pointer;
-      /* margin-left: 2rem; */
+    list-style: none;
+    cursor: pointer;
+    /* margin-left: 2rem; */
   }
-  
-  .contactButton{
-    
-    margin-right:8% ;
+
+  .contactButton {
+    margin-right: 8%;
   }
-  
+
   .contactButton button {
     padding: 5px 1.5rem;
     cursor: pointer;
     border: 2px solid white;
     border-radius: 2px;
     /* font-size: 20px; */
- 
-   
   }
-  
+
   .hero .text {
     margin-left: 10vw;
     margin-top: 25vh;
-}
-  
-.largeheading {
+  }
+
+  .largeheading {
     /* margin-bottom: 5vh; */
-  width: 50vw;
-  font-size: 40px;
-  font-weight: bold;
- 
-}
-.shortheading {
+    width: 50vw;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .shortheading {
     font-size: 15px;
     font-weight: bold;
     color: rgb(178, 175, 175);
+  }
 }
 
-  
-}
-
-@media (max-width:800px) {
-
-   .toogle{
+@media (max-width: 800px) {
+  .toogle {
     position: absolute;
     top: 40px;
     right: 30px;
     font-size: 20px;
     display: block;
   }
-  
+
   .logo {
     font-size: 22px;
     margin: 0 35% 0 8%;
