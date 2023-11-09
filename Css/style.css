@@ -43,7 +43,7 @@ body {
   gap: 10vh;
  
   transform: translateY(-2000px);
-  transition: all 1.5s ease;
+  transition: all 0.8s ease;
   /* display: none; */
 
 }
