@@ -459,6 +459,11 @@ display: none;
     margin-top: 25vh;
 }
   
+#skills .text ul li  {
+
+text-align: end;
+
+}
 
 .imfo {
   margin-left: 8vw;
