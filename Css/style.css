@@ -19,6 +19,52 @@ body {
   overflow-x: hidden;
 }
 
+.toogle {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  font-size: 20px;
+  display: none;
+}
+
+.sidebar{
+  width: 100vw;
+  position: absolute;
+  height: 200px;
+  background: black;
+  top:0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  gap: 10vh;
+ 
+  transform: translatey(-2000px);
+  transition: all 2s ease;
+  /* display: none; */
+
+}
+.sidebar i{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.sidebar-navlinks ul{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+}
+
+.sidebar-navlinks ul li{
+  list-style: none;
+}
+
 /* Hero section */
 .toogle {
   position: absolute;
@@ -266,20 +312,74 @@ img {
   transform: scale(1.2);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .largeheading {
     /* margin-bottom: 5vh; */
+  width: 50vw;
+  font-size: 60px;
+  font-weight: bold;
+ 
+}
+.shortheading {
+    font-size: 30px;
     width: 50vw;
     font-size: 50px;
     font-weight: bold;
   }
-  .shortheading {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(178, 175, 175);
-  }
+ 
+
+
+img {
+  width: 40vw;
+}
+
+.imfo {
+  margin-left: 8vw;
+  margin-top: 6vh;
+}
+
+.greeting {
+  font-size: 40px;
+  word-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  /* font-family: 'Clicker Script', cursive; */
+}
+
+.content {
+  width: 80%;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(149, 147, 147);
+  word-spacing: 0.1px;
+  line-height: 30px;
+  text-align: justify;
+  /* letter-spacing: 1px; */
+}
+
+  
 }
 @media (max-width: 1000px) {
+
+  .largeheading {
+    /* margin-bottom: 5vh; */
+  width: 60vw;
+  font-size: 50px;
+  font-weight: bold;
+ 
+}
+.shortheading {
+    font-size: 30px;
+    width: 50vw;
+    font-size: 50px;
+    font-weight: bold;
+  }
   .toogle {
     position: absolute;
     top: 40px;
@@ -318,6 +418,12 @@ img {
   }
 
   .contactButton button {
+display: none;
+ 
+   
+  }
+  .contact-sidebar button{
+    display: block;
     padding: 5px 1.5rem;
     cursor: pointer;
     border: 2px solid white;
@@ -328,19 +434,39 @@ img {
   .hero .text {
     margin-left: 10vw;
     margin-top: 25vh;
-  }
+}
+  
 
-  .largeheading {
-    /* margin-bottom: 5vh; */
-    width: 50vw;
-    font-size: 40px;
-    font-weight: bold;
-  }
-  .shortheading {
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(178, 175, 175);
-  }
+.imfo {
+  margin-left: 8vw;
+  margin-top: 6vh;
+}
+
+.greeting {
+  font-size: 35px;
+  word-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  /* font-family: 'Clicker Script', cursive; */
+}
+
+.content {
+  width: 80%;
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgb(149, 147, 147);
+  word-spacing: 0.1px;
+  line-height: 25px;
+  text-align: justify;
+  /* letter-spacing: 1px; */
+}
+  
 }
 
 @media (max-width: 800px) {
@@ -358,4 +484,177 @@ img {
     cursor: pointer;
     font-weight: bold;
   }
+  .largeheading {
+    /* margin-bottom: 5vh; */
+  width: 70vw;
+  font-size: 50px;
+  font-weight: bold;
+ 
+}
+.shortheading {
+    font-size: 30px;
+    width: 50vw;
+    /* font-size: 50px; */
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 600px) {
+  .largeheading {
+    /* margin-bottom: 5vh; */
+  width: 70vw;
+  font-size: 40px;
+  font-weight: bold;
+ 
+}
+.shortheading {
+    font-size: 30px;
+    width: 50vw;
+    /* font-size: 50px; */
+    font-weight: bold;
+  }
+ 
+  .navlinks {
+    margin: 0 25% 0 0;
+    width: 10%;
+    display: none;
+  }
+ 
+
+  .contactButton {
+    margin-right: 8%;
+  }
+
+  .contactButton button {
+display: none;
+ 
+   
+  }
+  .contact-sidebar button{
+    display: block;
+    padding: 5px 1.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 2px;
+    /* font-size: 20px; */
+  }
+
+  .hero .text {
+    margin-left: 10vw;
+    margin-top: 25vh;
+}
+  
+
+.imfo {
+  margin-left: 8vw;
+  margin-top: 6vh;
+}
+
+.greeting {
+  font-size: 35px;
+  word-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  /* font-family: 'Clicker Script', cursive; */
+}
+
+.content {
+  width: 80%;
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgb(149, 147, 147);
+  word-spacing: 0.1px;
+  line-height: 25px;
+  text-align: justify;
+  /* letter-spacing: 1px; */
+}
+
+img{
+  width: 30vw;
+}
+  
+}
+
+@media (max-width: 400px) {
+  .largeheading {
+    /* margin-bottom: 5vh; */
+  width: 70vw;
+  font-size: 40px;
+  font-weight: bold;
+ 
+}
+.shortheading {
+    font-size: 30px;
+    width: 50vw;
+    /* font-size: 50px; */
+    font-weight: bold;
+  }
+ 
+  .navlinks {
+    margin: 0 25% 0 0;
+    width: 10%;
+    display: none;
+  }
+ 
+
+  .contactButton {
+    margin-right: 8%;
+  }
+
+  .contactButton button {
+display: none;
+ 
+   
+  }
+  .contact-sidebar button{
+    display: block;
+    padding: 5px 1.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 2px;
+    /* font-size: 20px; */
+  }
+
+  .hero .text {
+    margin-left: 10vw;
+    margin-top: 25vh;
+}
+  
+
+.imfo {
+  margin-left: 8vw;
+  margin-top: 6vh;
+}
+
+.greeting {
+  font-size: 16px;
+  word-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  /* font-family: 'Clicker Script', cursive; */
+}
+
+.content {
+  width: 80%;
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgb(149, 147, 147);
+  word-spacing: 0.1px;
+  line-height: 25px;
+  text-align: justify;
+  /* letter-spacing: 1px; */
+}
+  
 }
