@@ -184,7 +184,7 @@ body {
   margin-top: 10vh;
 }
 img{
-  width: 40vh;
+  width: 60vh;
 }
 
 .greeting {
@@ -202,7 +202,7 @@ img{
 }
 
 .content {
-  width: 80%;
+  width: 60%;
   font-size: 20px;
   font-weight: lighter;
   color: rgb(149, 147, 147);
