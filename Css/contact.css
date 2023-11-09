@@ -45,6 +45,7 @@
     align-items: center;
     padding-top: 40px;
     padding: 40px 120px;
+    padding-bottom: 0px;
     color: white;
   }
   
@@ -54,6 +55,9 @@
     cursor: pointer;
     font-weight: bold;
   }
+
+  /* 
+  
   .navlinks {
     margin: 0 25% 0 0;
     width: 10%;
@@ -63,14 +67,17 @@
     justify-content: center;
     align-items: center;
     gap: 50%;
-    /* text-transform: uppercase; */
-  }
+    text-transform: uppercase; 
+}
   
-  .navbar ul li {
-      list-style: none;
-      cursor: pointer;
-      /* margin-left: 2rem; */
-  }
+.navbar ul li {
+    list-style: none;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+  
+  */
+  
   
   .homeButton button {
     padding: 15px 34px;
@@ -107,7 +114,7 @@
   }
 
   .form h2{
-    margin-top: 84px;
+    margin-top: 44px;
     margin-bottom: 30px;
     font-family: 'Playfair Display', serif;
     font-size: 45px;
