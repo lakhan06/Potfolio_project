@@ -252,21 +252,20 @@ img {
 .wimage4,
 .wimage5 {
   filter: grayscale(100%);
- 
 }
-.wimage1:hover{
+.wimage1:hover {
   filter: grayscale(0);
 }
-.wimage2:hover{
+.wimage2:hover {
   filter: grayscale(0);
 }
-.wimage3:hover{
+.wimage3:hover {
   filter: grayscale(0);
 }
-.wimage4:hover{
+.wimage4:hover {
   filter: grayscale(0);
 }
-.wimage5:hover{
+.wimage5:hover {
   filter: grayscale(0);
 }
 
@@ -305,7 +304,6 @@ img {
   background: url(/Images/work5.png);
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 /* 
@@ -915,11 +913,9 @@ img {
   }
 }
 
-
-@media (max-width:500px) {
-  .sidebar{
+@media (max-width: 500px) {
+  .sidebar {
     flex-direction: column;
-    gap:5vh;
+    gap: 5vh;
   }
-  
 }
