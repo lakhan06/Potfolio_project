@@ -45,6 +45,7 @@ body {
   font-size: 22px;
   margin: 0 40vh 0 6vh;
   cursor: pointer;
+  font-weight: bold;
 }
 .navlinks {
   margin: 0 30vh 0 0;
@@ -63,12 +64,11 @@ body {
 }
 
 .contactButton button {
-  padding: 5px 30px;
+  padding: 15px 34px;
   cursor: pointer;
   border: 2px solid white;
-  border-radius: 2px;
+  /* border-radius: 2px; */
   /* font-size: 20px; */
-  font-weight: bold;
   color: black;
 }
 
@@ -84,7 +84,7 @@ body {
  
 }
 .shortheading {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(178, 175, 175);
 }
@@ -99,7 +99,7 @@ body {
     font-size: 20px;
     cursor: pointer;
     border: 2px solid white;
-  border-radius: 2px;
+  /* border-radius: 2px; */
   color: black;
 }
 
