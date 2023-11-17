@@ -162,6 +162,8 @@ button:hover {
   font-family: monospace;
 }
 
+/* animation 1 */
+
 @keyframes typing {
   from {
     width: 0
@@ -224,7 +226,7 @@ button:hover {
   animation: shaking 0.5s infinite;
 }
 
-/* animation */
+/* animation 2 */
 @keyframes shaking {
   0% {
     transform: rotate(0deg);
