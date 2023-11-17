@@ -50,6 +50,7 @@
               id="l-name"
               placeholder="enter  last name"
               required
+              onkeyup="showKeyCode(event);"
             />
             <!-- email -->
             <label for="email" id="e-label" class="label"> Email <span>*</span> </label>
@@ -59,6 +60,7 @@
               id="email"
               placeholder="enter  email"
               required
+              onkeyup="showKeyCode(event);"
             />
             <!-- message -->
             <label for="message" id="m-label" class="label"> Message <span>*</span> </label>
@@ -70,6 +72,7 @@
               rows="10"
               placeholder="enter message to deliver"
               required
+              onkeyup="showKeyCode(event);"
             ></textarea>
             <!-- submit button -->
             <button id="submit" type="submit"  class="submit" onclick="alertsubmit()">Submit</button>
