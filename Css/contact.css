@@ -156,6 +156,8 @@ button:hover {
   width: 13ch;
   font-size: 45px;
   animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+  /* transition */
+  transition: all ease-in-out 1s;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -220,6 +222,8 @@ button:hover {
   width: 130px;
   height: 36px;
   cursor: pointer;
+  /* transition */
+  transition: all ease-in-out 0.5s;
 }
 
 #submit:hover {
