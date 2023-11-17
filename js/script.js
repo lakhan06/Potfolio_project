@@ -1,5 +1,3 @@
-var sidebarEl=document.querySelector(".sidebar")
-var toogleEl=document.querySelector(".toogle")
 
 var submit=document.querySelector(".submit")
 var sidebarEl = document.querySelector(".sidebar");
