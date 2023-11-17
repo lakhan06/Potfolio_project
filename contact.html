@@ -34,16 +34,18 @@
             <!-- legend used -->
             <legend>Contact Me</legend>
             <!-- first-name -->
-            <label for="f-name" id="f-label"> First Name <span>*</span> </label>
+            <label for="f-name" id="f-label" class="label"> First Name <span>*</span> </label>
             <input
-              type="text"
+            type="text"
               name="f-name"
               id="f-name"
               placeholder="enter first name"
               required
-            />
+
+              onkeyup="showKeyCode(event);"
+              />
             <!-- last-name -->
-            <label for="l-name" id="l-label"> Last Name <span>*</span> </label>
+            <label for="l-name" id="l-label" class="label"> Last Name <span>*</span> </label>
             <input
               type="text"
               name="l-name"
@@ -52,7 +54,7 @@
               required
             />
             <!-- email -->
-            <label for="email" id="e-label"> Email <span>*</span> </label>
+            <label for="email" id="e-label" class="label"> Email <span>*</span> </label>
             <input
               type="email"
               name="email"
@@ -61,7 +63,7 @@
               required
             />
             <!-- message -->
-            <label for="message" id="m-label"> Message <span>*</span> </label>
+            <label for="message" id="m-label" class="label"> Message <span>*</span> </label>
 
             <textarea
               name="message"
@@ -72,7 +74,7 @@
               required
             ></textarea>
             <!-- submit button -->
-            <button id="submit" type="submit">Submit</button>
+            <button id="submit" type="submit"  class="submit" onclick="alertsubmit()">Submit</button>
           </fieldset>
         </form>
       </div>
@@ -112,6 +114,8 @@
         </ul>
       </div>
     </div>
+
+    <script src="./js/script.js"></script>
 
     <!-- footer end -->
   </body>
