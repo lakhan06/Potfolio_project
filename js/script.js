@@ -20,7 +20,7 @@ function showKeyCode(e) {
 
    if (letter != 32)
    {
-       var audio = new Audio("./images/interface-124464.mp3");
+       var audio = new Audio("./images/mouse-click-153941.mp3");
        audio.play();
    }
    else
