@@ -475,7 +475,12 @@ button:hover {
   }
 }
 input:focus{
-  transform: scale(1.05);
+  transform: scale(1.01);
+background: transparent;
+color: white;
+}
+textarea:focus{
+  transform: scale(1.01);
 background: transparent;
 color: white;
 }
