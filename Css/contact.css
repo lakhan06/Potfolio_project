@@ -196,6 +196,9 @@ button:hover {
   color: black;
   margin-bottom: 24px;
   padding: 0px 10px;
+
+  /* TRANSITION HERE */
+  transition: all 1s ease;
 }
 
 .form textarea {
@@ -205,6 +208,8 @@ button:hover {
   color: black;
   border-radius: 2px;
   font-size: 12px;
+    /* TRANSITION HERE */
+    transition: all 1s ease;
 }
 
 .form p {
