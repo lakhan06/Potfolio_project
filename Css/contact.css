@@ -474,13 +474,12 @@ button:hover {
     font-size: 13px;
   }
 }
-input:focus{
+
+.focus{
   transform: scale(1.01);
 background: transparent;
-color: white;
+color: white !important;
 }
-textarea:focus{
-  transform: scale(1.01);
-background: transparent;
-color: white;
-}
+
+
+
