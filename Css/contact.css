@@ -171,7 +171,7 @@ button:hover {
     width: 0
   }
 }
-    
+
 @keyframes blink {
   50% {
     border-color: transparent
@@ -208,8 +208,8 @@ button:hover {
   color: black;
   border-radius: 2px;
   font-size: 12px;
-    /* TRANSITION HERE */
-    transition: all 1s ease;
+  /* TRANSITION HERE */
+  transition: all 1s ease;
 }
 
 .form p {
@@ -531,11 +531,8 @@ button:hover {
   }
 }
 
-.focus{
+.focus {
   transform: scale(1.01);
-background: transparent;
-color: white !important;
+  background: transparent;
+  color: white !important;
 }
-
-
-
