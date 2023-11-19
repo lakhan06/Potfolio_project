@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact</title>
-  <link rel="stylesheet" href="css/contact.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/Css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
 
   <body>
     <!-- navbar-contact-page -->
@@ -32,22 +34,24 @@
             <!-- legend used -->
             <legend>Contact Me</legend>
             <!-- first-name -->
-            <label for="f-name" id="f-label" class="label1 "> First Name <span>*</span> </label>
+            <label for="f-name" id="f-label" class="label1">
+              First Name <span>*</span>
+            </label>
             <input
-            type="text"
+              type="text"
               name="f-name"
               id="f-name"
               class="input1"
               placeholder="enter first name"
               required
-
-onfocus="inputfocus1()"
-
-onkeyup="showKeyCode(event)"
-onfocusout="outfocus1()"
-              />
+              onfocus="inputfocus1()"
+              onkeyup="showKeyCode(event)"
+              onfocusout="outfocus1()"
+            />
             <!-- last-name -->
-            <label for="l-name" id="l-label" class="label"> Last Name <span>*</span> </label>
+            <label for="l-name" id="l-label" class="label">
+              Last Name <span>*</span>
+            </label>
             <input
               type="text"
               name="l-name"
@@ -60,7 +64,9 @@ onfocusout="outfocus1()"
               onfocusout="outfocus2()"
             />
             <!-- email -->
-            <label for="email" id="e-label" class="label"> Email <span>*</span> </label>
+            <label for="email" id="e-label" class="label">
+              Email <span>*</span>
+            </label>
             <input
               type="email"
               name="email"
@@ -73,7 +79,9 @@ onfocusout="outfocus1()"
               onfocusout="outfocus3()"
             />
             <!-- message -->
-            <label for="message" id="m-label" class="label"> Message <span>*</span> </label>
+            <label for="message" id="m-label" class="label">
+              Message <span>*</span>
+            </label>
 
             <textarea
               name="message"
@@ -87,7 +95,14 @@ onfocusout="outfocus1()"
               onfocusout="outfocus4()"
             ></textarea>
             <!-- submit button -->
-            <button id="submit" type="submit"  class="submit" onclick="alertsubmit()">Submit</button>
+            <button
+              id="submit"
+              type="submit"
+              class="submit"
+              onclick="alertsubmit()"
+            >
+              Submit
+            </button>
           </fieldset>
         </form>
       </div>
@@ -97,35 +112,35 @@ onfocusout="outfocus1()"
       </div>
     </div>
 
-  <!-- footer start  -->
+    <!-- footer start  -->
 
-  <div class="footer">
-    <div class="left">
-      <a href="index.html">
-        <div class="fLogo">PORTFOLIO</div>
-      </a>
-      <h5>
-        Grabbing the consumer's attention isn't enough you have to keep that
-        attention for at least.
-      </h5>
-    </div>
-
-    <div class="middle">
-      <ul>
+    <div class="footer">
+      <div class="left">
         <a href="index.html">
-          <li>Home</li>
+          <div class="fLogo">PORTFOLIO</div>
         </a>
-        <a href="index.html#about">
-          <li>About</li>
-        </a>
-        <a href="index.html#work">
-          <li>Work</li>
-        </a>
-        <a href="index.html#skills">
-          <li>Skills</li>
-        </a>
-      </ul>
-    </div>
+        <h5>
+          Grabbing the consumer's attention isn't enough you have to keep that
+          attention for at least.
+        </h5>
+      </div>
+
+      <div class="middle">
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="index.html#about">
+            <li>About</li>
+          </a>
+          <a href="index.html#work">
+            <li>Work</li>
+          </a>
+          <a href="index.html#skills">
+            <li>Skills</li>
+          </a>
+        </ul>
+      </div>
 
       <div class="right">
         <h2>Social Media</h2>
@@ -140,7 +155,6 @@ onfocusout="outfocus1()"
 
     <script src="./js/script.js"></script>
 
-  <!-- footer end -->
-</body>
-
+    <!-- footer end -->
+  </body>
 </html>
