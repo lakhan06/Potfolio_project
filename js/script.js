@@ -28,7 +28,7 @@ function showKeyCode(e) {
   var letter = e.keyCode;
 
   if (letter != 32) {
-    var audio = new Audio("./images/mouse-click-153941.mp3");
+    var audio = new Audio("images/mouse-click-153941.mp3");
     audio.play();
   } else {
     document.getElementById("TextBox1").value = "";
